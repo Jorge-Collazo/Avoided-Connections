@@ -6,3 +6,9 @@ div.col-1-4{width:25%}
 div.col-3-4{width:75%}
 div.col-1-5{width:20%}
 div.col-4-5{width:80%}
+
+div{
+    border-width: 1px;
+    border-color: white;
+    border-style: solid;
+}
