@@ -13,4 +13,8 @@ body{
 }
 h1{
     font-family: voided, fantasy, serif;
+    font-weight: normal;
+}
+img{
+    background-color: white;
 }
