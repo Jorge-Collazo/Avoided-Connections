@@ -1,13 +1,38 @@
+@charset "utf-8";
+
 html{
-    background-color: black;
+    
+    background-color: rgb(178, 149, 255);
 }
 body{
-    background-color: rgb(25, 20, 30);
+    background-color: black;
     color: rgb(178, 149, 255);
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
 }
 h1{
     font-family: voided, fantasy, serif;
 }
 img{
     background-color: white;
+    width: 100%;
+}
+nav li{
+    float: left;
+    text-align: center;
+    width: 14%;
+}
+div#nav{
+    float: left;
+}
+div#title{
+    clear: left;
+}
+div#logo{
+    clear: left;
+    float: left;
+}
+div#title{
+    text-align: center;
 }
