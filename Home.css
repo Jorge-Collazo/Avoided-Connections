@@ -1,20 +1,29 @@
 @font-face{
     font-family:voided;
-    src:url(voided.ttf) format('ttf'),
-        url(voided.woff) format('woff'),
-        url(voided.woff2) format('woff2');
+    src:url(voided.ttf) format('truetype'),
+    url(voided.woff) format('woff'),
+    url(voided.woff2) format('woff2');
 }
 html{
-    background-color: black;
+    background-image: linear-gradient(rgb(45, 40, 50)33%, rgb(64, 45, 95)67%, rgb(94, 75, 125)100%);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
 }
 body{
-    background-color: rgb(25, 20, 30);
+    background-color: black;
     color: rgb(178, 149, 255);
+    margin-left: 100px;
+    margin-right: 100px;
 }
 h1{
     font-family: voided, fantasy, serif;
     font-weight: normal;
+    font-size: 20px;
 }
 img{
     background-color: white;
+}
+footer{
+    color:whitesmoke;
 }
