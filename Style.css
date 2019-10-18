@@ -35,4 +35,16 @@ div#logo{
 }
 div#title{
     text-align: center;
+    font-size: 50px;
+    padding-top: 30px;
+}
+blockquote{
+    width: 75%;
+    margin-right: auto;
+    margin-left: auto;
+}
+div#picture{
+    width: 75%;
+    margin-right: auto;
+    margin-left: auto;
 }
