@@ -3,8 +3,8 @@
     src:url(voided.ttf) format('truetype'),
     url(voided.woff) format('woff'),
     url(voided.woff2) format('woff2');
-}
-html{
+ }
+ html{
     background: linear-gradient(rgb(45, 40, 50)33%, rgb(64, 45, 95)67%, rgb(94, 75, 125)100%);
     background-size: cover;
     height: stretch;
