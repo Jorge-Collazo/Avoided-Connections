@@ -9,21 +9,42 @@ html{
     background-repeat: no-repeat;
     background-size: cover;
     height: 100%;
+    box-sizing: border-box;
 }
 body{
     background-color: black;
     color: rgb(178, 149, 255);
-    margin-left: 100px;
-    margin-right: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
 }
 h1{
     font-family: voided, fantasy, serif;
     font-weight: normal;
     font-size: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    clear:both;
 }
 img{
-    background-color: white;
+    clear:left;
+    float: left;
 }
 footer{
     color:whitesmoke;
+}
+#title{
+    text-align: center;
+}
+#nav li{
+    float:right;
+    width:14%;
+    text-align: center;
+    
+}
+div#logo{
+    width:100%;
+    clear:left;
+    float: left;
+    background-color: white;
 }
