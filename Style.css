@@ -22,9 +22,13 @@ nav li{
     float: left;
     text-align: center;
     width: 14%;
+    font-size: 20px;
 }
 div#nav{
     float: left;
+    background-color: green;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 div#title{
     clear: left;
@@ -34,17 +38,31 @@ div#logo{
     float: left;
 }
 div#title{
+    clear: left;
     text-align: center;
     font-size: 50px;
-    padding-top: 30px;
+    padding-top: 35px;
+    padding-bottom: 30px;
+    background-color: green;
 }
 blockquote{
     width: 75%;
     margin-right: auto;
     margin-left: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: darkgreen;
+    border-style: solid;
+    border-radius: 10px;
 }
 div#picture{
     width: 75%;
     margin-right: auto;
     margin-left: auto;
+}
+a:link, a:visited{
+    color: white;
+}
+a:hover, a:active{
+    color: grey;
 }
