@@ -38,6 +38,7 @@ nav li{
     text-align: center;
     width: 14%;
     font-size: 20px;
+    margin-top: 10px;
 }
 div#nav{
     float: left;
@@ -82,6 +83,14 @@ a:link, a:visited{
 a:hover, a:active{
     color: grey;
 }
+p, blockquote{
+    text-align: center;
+    padding-left: 2em;
+    padding-right: 2em;
+    padding-bottom: .5em;
+    padding-top: .5em;
+}
+
 img#homePic{
     filter: grayscale(1);
     -webkit-filter: grayscale(1);
