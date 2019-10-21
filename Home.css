@@ -1,55 +1,89 @@
+@charset "utf-8";
+
 @font-face{
     font-family:voided;
     src:url(voided.ttf) format('truetype'),
     url(voided.woff) format('woff'),
     url(voided.woff2) format('woff2');
-}
-html{
-    background-image: linear-gradient(rgb(45, 40, 50)33%, rgb(64, 45, 95)67%, rgb(94, 75, 125)100%);
-    background-repeat: no-repeat;
+ }
+ html{
+    background: linear-gradient(rgb(45, 40, 50)33%, rgb(64, 45, 95)67%, rgb(94, 75, 125)100%);
     background-size: cover;
-    height: 100%;
+    height: stretch;
     box-sizing: border-box;
-    white-space: nowrap;
-}
-body{
+ }
+ body{
     background-color: black;
     color: rgb(178, 149, 255);
     margin-left: auto;
     margin-right: auto;
     width: 80%;
-}
-h1{
+ }
+ article > p{
+    text-align: center;
+ }
+ h1{
     font-family: voided, fantasy, serif;
     font-weight: normal;
     font-size: 30px;
     padding-top: 10px;
     padding-bottom: 10px;
     clear:both;
-}
-#homePic{
-    width:100%;
-    clear:left;
+ }
+ #homePic{
+    filter: grayscale(0.8);
+    width: 100%;
+    clear: left;
     float: left;
-}
-footer{
+ }
+ footer{
     color:whitesmoke;
-}
-#title{
-    text-align: center;
-}
-#nav li{
-    float:left;
-    width:14%;
-    text-align: center;
-}
-a{
-    color: rgb(178, 149, 255);
-    background-color: rgb(94, 75, 125);
-}
-div#logo{
-    width:100%;
-    clear:left;
-    float: left;
+ }
+ img{
     background-color: white;
-}
+    width: 100%;
+ }
+  
+ img{
+    background-color: white;
+    width: 100%;
+ }
+ nav li{
+    float: left;
+    text-align: center;
+    width: 14%;
+    font-size: 20px;
+ }
+ div#nav{
+    float: left;
+    background-color: green;
+    padding-top: 10px;
+    padding-bottom: 10px;
+ }
+ div#title{
+    clear: left;
+ }
+ div#logo{
+    clear: left;
+    float: left;
+ }
+ div#title{
+    clear: left;
+    text-align: center;
+    font-size: 50px;
+    padding-top: 35px;
+    padding-bottom: 30px;
+    background-color: green;
+ }
+ div#picture{
+    width: 50%;
+    margin-right: auto;
+    margin-left: auto;
+ }
+ a:link, a:visited{
+    color: white;
+ }
+ a:hover, a:active{
+    color: grey;
+ }
+ 

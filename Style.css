@@ -1,8 +1,18 @@
 @charset "utf-8";
 
+@font-face{
+    font-family:voided;
+    src:url(voided.ttf) format('truetype'),
+    url(voided.woff) format('woff'),
+    url(voided.woff2) format('woff2');
+}
 html{
     
     background-color: rgb(178, 149, 255);
+    background: linear-gradient(rgb(45, 40, 50)33%, rgb(64, 45, 95)67%, rgb(94, 75, 125)100%);
+    background-size: cover;
+    height: stretch;
+    box-sizing: border-box;
 }
 body{
     background-color: black;
@@ -13,7 +23,12 @@ body{
 }
 h1{
     font-family: voided, fantasy, serif;
-}
+    font-weight: normal;
+    font-size: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    clear:both;
+ }
 img{
     background-color: white;
     width: 100%;
@@ -45,18 +60,21 @@ div#title{
     padding-bottom: 30px;
     background-color: green;
 }
+blockquote#special{
+    margin-top: 150px;
+}
 blockquote{
     width: 75%;
     margin-right: auto;
     margin-left: auto;
-    margin-top: 10px;
+    margin-top: 50px;
     margin-bottom: 10px;
     background-color: darkgreen;
     border-style: solid;
     border-radius: 10px;
 }
 div#picture{
-    width: 75%;
+    width: 50%;
     margin-right: auto;
     margin-left: auto;
 }
