@@ -11,6 +11,6 @@ div.col-9-10{width:90%}
 
 div{
     border-width: 1px;
-    border-color: white;
+    border-color: rgb(255, 0, 0);
     border-style: solid;
 }
