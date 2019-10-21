@@ -90,3 +90,27 @@ p, blockquote{
     padding-bottom: .5em;
     padding-top: .5em;
 }
+
+img#homePic{
+    filter: grayscale(1);
+    -webkit-filter: grayscale(1);
+    width: 85%;
+    position: relative;
+    top: 5px;
+    left: 80px;
+}
+footer{
+    text-align: center;
+    background-color: green;
+    color: white;
+}
+iframe{
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-top: 30px;
+}
+p{
+    margin-top: 150px;
+    margin-bottom: 25px;
+    text-align: center;
+}
