@@ -42,8 +42,6 @@ nav li{
 div#nav{
     float: left;
     background-color: green;
-    padding-top: 10px;
-    padding-bottom: 10px;
 }
 div#title{
     clear: left;
