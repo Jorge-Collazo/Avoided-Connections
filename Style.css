@@ -89,6 +89,10 @@ p, blockquote{
     padding-right: 2em;
     padding-bottom: .5em;
     padding-top: .5em;
+    border-radius: 25px;
+    border-color: whitesmoke;
+    border-style: solid;
+    border-width: 3px;
 }
 
 img#homePic{
@@ -109,8 +113,15 @@ iframe{
     padding-right: 20%;
     padding-top: 30px;
 }
-p{
+article>p{
     margin-top: 150px;
     margin-bottom: 25px;
+    margin-right: 50px;
+    margin-left: 50px;
     text-align: center;
+    background-color: darkgreen;
+    border-radius: 25px;
+    border-color: whitesmoke;
+    border-style: solid;
+    border-width: 3px;
 }
