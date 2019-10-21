@@ -7,9 +7,8 @@
     url(voided.woff2) format('woff2');
 }
 html{
-    
     background-color: rgb(178, 149, 255);
-    background: linear-gradient(rgb(45, 40, 50)33%, rgb(64, 45, 95)67%, rgb(94, 75, 125)100%);
+    background: linear-gradient(rgb(45, 40, 50)20%, rgb(64, 45, 95)40%, rgb(94, 75, 125)100%);
     background-size: cover;
     height: stretch;
     box-sizing: border-box;
@@ -28,9 +27,9 @@ h1{
     padding-top: 10px;
     padding-bottom: 10px;
     clear:both;
+    text-shadow:rgb(101, 96, 105) 0px 0px 15px;
  }
 img{
-    background-color: white;
     width: 100%;
 }
 nav li{
@@ -41,12 +40,12 @@ nav li{
 }
 div#nav{
     float: left;
-   
 }
 div#title{
     clear: left;
 }
 div#logo{
+    background-color: white;
     clear: left;
     float: left;
 }
@@ -75,6 +74,8 @@ div#picture{
     width: 50%;
     margin-right: auto;
     margin-left: auto;
+    box-shadow: rgb(101, 96, 105) 5px 0px 50px, rgb(101, 96, 105) -5px 0px 50px;
+    background-color:rgb(232, 231, 233);
 }
 a:link, a:visited{
     color: white;

@@ -29,35 +29,13 @@ h1{
    padding-top: 10px;
    padding-bottom: 10px;
    clear:both;
-}
-#homePic{
-   filter: grayscale(0.8);
-   width: 100%;
-   clear: left;
-   float: left;
+   text-shadow:rgb(101, 96, 105) 0px 0px 15px;
 }
 footer{
    color:whitesmoke;
 }
-img{
-   background-color: white;
-   width: 100%;
-}
-nav li{
-   float: left;
-   text-align: center;
-   width: 14%;
-   font-size: 20px;
-}
-div#nav{
-   float: left;
-}
 div#title{
    clear: left;
-}
-div#logo{
-   clear: left;
-   float: left;
 }
 div#title{
    clear: left;
@@ -67,14 +45,39 @@ div#title{
    padding-bottom: 30px;
    
 }
-div#picture{
-   width: 50%;
-   margin-right: auto;
-   margin-left: auto;
+/*NAV*/
+div#nav{
+   float: left;
+}
+nav li{
+   float: left;
+   text-align: center;
+   width: 14%;
+   font-size: 20px;
 }
 a:link, a:visited{
    color: white;
 }
 a:hover, a:active{
    color: grey;
+}
+/*PICTURES*/
+div#picture{
+   width: 50%;
+   margin-right: auto;
+   margin-left: auto;
+}
+div#logo{
+   clear: left;
+   float: left;
+}
+img{
+   background-color: white;
+   width: 100%;
+}
+#homePic{
+   filter: grayscale(0.8);
+   width: 100%;
+   clear: left;
+   float: left;
 }
