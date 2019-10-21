@@ -41,9 +41,7 @@ nav li{
 }
 div#nav{
     float: left;
-    background-color: green;
-    padding-top: 10px;
-    padding-bottom: 10px;
+   
 }
 div#title{
     clear: left;
@@ -58,7 +56,7 @@ div#title{
     font-size: 50px;
     padding-top: 35px;
     padding-bottom: 30px;
-    background-color: green;
+    
 }
 blockquote#special{
     margin-top: 150px;
