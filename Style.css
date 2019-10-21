@@ -83,6 +83,10 @@ a:link, a:visited{
 a:hover, a:active{
     color: grey;
 }
-p:first-of-type{
+p, blockquote{
     text-align: center;
+    padding-left: 2em;
+    padding-right: 2em;
+    padding-bottom: .5em;
+    padding-top: .5em;
 }
