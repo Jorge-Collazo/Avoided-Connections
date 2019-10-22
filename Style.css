@@ -85,10 +85,10 @@ div#picture{
     filter: brightness(70%) saturate(80%) contrast(110%);
 }
 a:link, a:visited{
-    color: white;
+    color: orange;
 }
 a:hover, a:active{
-    color: grey;
+    color: red;
 }
 p, blockquote{
     text-align: center;
