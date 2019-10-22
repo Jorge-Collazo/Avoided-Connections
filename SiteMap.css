@@ -9,11 +9,12 @@
 html{
     
     background-color: rgb(178, 149, 255);
-    background: linear-gradient(rgb(207, 29, 29)33%, rgb(245, 131, 131)67%, rgb(241, 241, 241)100%);
+    background-image: linear-gradient(rgb(207, 29, 29)33%, rgb(245, 131, 131)67%, rgb(241, 241, 241)100%);
     background-size: cover;
     height: stretch;
     box-sizing: border-box;
     position: relative;
+    padding-bottom: 300px;
 }
 body{
     background-color: black;
