@@ -6,6 +6,12 @@
     url(voided.woff) format('woff'),
     url(voided.woff2) format('woff2');
 }
+@font-face{
+    font-family: plasdrip;
+    src:url(plasdrip.ttf) format('truetype'),
+    url(plasdrip.woff) format('woff'),
+    url(plasdrip.woff2) format('woff2');
+}
 html{
     background-color: rgb(178, 149, 255);
     background: linear-gradient(rgb(45, 40, 50)20%, rgb(64, 45, 95)40%, rgb(94, 75, 125)100%);
@@ -77,6 +83,9 @@ div#picture{
     margin-left: auto;
     box-shadow: rgb(101, 96, 105) 5px 0px 50px, rgb(101, 96, 105) -5px 0px 50px;
     background-color:rgb(232, 231, 233);
+}
+a{
+    font-family: plasdrip, serif;
 }
 a:link, a:visited{
     color: orange;
