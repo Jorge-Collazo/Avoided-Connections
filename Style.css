@@ -1,5 +1,5 @@
 @charset "utf-8";
-
+/*Fonts*/
 @font-face{
     font-family:voided;
     src:url(voided.ttf) format('truetype'),
@@ -12,6 +12,7 @@
     url(plasdrip.woff) format('woff'),
     url(plasdrip.woff2) format('woff2');
 }
+
 html{
     background-color: rgb(178, 149, 255);
     background: linear-gradient(rgb(45, 40, 50)20%, rgb(64, 45, 95)40%, rgb(94, 75, 125)100%);
@@ -83,21 +84,22 @@ blockquote{
     border-radius: 1px;
 }
 div#picture{
-    width: 50%;
+    width: 40%;
     margin-right: auto;
     margin-left: auto;
     box-shadow: rgb(101, 96, 105) 5px 0px 50px, rgb(101, 96, 105) -5px 0px 50px;
     background-color:rgb(232, 231, 233);
     filter: brightness(70%) saturate(80%) contrast(110%);
 }
+/*Nav font and color*/
 a{
     font-family: plasdrip, serif;
 }
 a:link, a:visited{
-    color: orange;
+    color: rgb(255, 115, 0);
 }
 a:hover, a:active{
-    color: red;
+    color: rgb(173, 2, 2);
 }
 p, blockquote{
     text-align: center;
@@ -120,11 +122,7 @@ img#homePic{
     top: 5px;
     left: 80px;
 }
-footer{
-    text-align: center;
-    color: white;
-    padding-top: 30px;
-}
+
 iframe{
     padding-left: 20%;
     padding-right: 20%;
@@ -142,4 +140,9 @@ article>p{
 }
 h6{
     font-weight: normal;
+}
+footer{
+    text-align: center;
+    color: white;
+    padding-top: 30px;
 }
