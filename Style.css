@@ -79,10 +79,10 @@ div#picture{
     background-color:rgb(232, 231, 233);
 }
 a:link, a:visited{
-    color: white;
+    color: orange;
 }
 a:hover, a:active{
-    color: grey;
+    color: red;
 }
 p, blockquote{
     text-align: center;
