@@ -12,6 +12,7 @@ html{
     background-size: cover;
     height: stretch;
     box-sizing: border-box;
+    
 }
 body{
     background-color: black;
@@ -19,6 +20,8 @@ body{
     width: 80%;
     margin-right: auto;
     margin-left: auto;
+    box-shadow:black 0px 0px 100px;
+    font-family: serif;
 }
 h1{
     font-family: voided, fantasy, serif;
@@ -27,7 +30,7 @@ h1{
     padding-top: 10px;
     padding-bottom: 10px;
     clear:both;
-    text-shadow:rgb(101, 96, 105) 0px 0px 15px;
+    text-shadow:rgb(111, 106, 116) 0px 0px 30px;
  }
 img{
     width: 100%;
@@ -38,6 +41,7 @@ nav li{
     width: 14%;
     font-size: 20px;
     margin-top: 10px;
+    color:rgb(255, 94, 0);
 }
 div#nav{
     float: left;
@@ -56,7 +60,9 @@ div#title{
     font-size: 50px;
     padding-top: 35px;
     padding-bottom: 30px;
-    
+}
+a{
+    font-family: serif;
 }
 blockquote#special{
     margin-top: 150px;
@@ -67,9 +73,8 @@ blockquote{
     margin-left: auto;
     margin-top: 50px;
     margin-bottom: 10px;
-    background-color: darkgreen;
     border-style: solid;
-    border-radius: 10px;
+    border-radius: 1px;
 }
 div#picture{
     width: 50%;
@@ -77,6 +82,7 @@ div#picture{
     margin-left: auto;
     box-shadow: rgb(101, 96, 105) 5px 0px 50px, rgb(101, 96, 105) -5px 0px 50px;
     background-color:rgb(232, 231, 233);
+    filter: brightness(70%) saturate(80%) contrast(110%);
 }
 a:link, a:visited{
     color: white;
@@ -88,14 +94,15 @@ p, blockquote{
     text-align: center;
     padding-left: 2em;
     padding-right: 2em;
-    padding-bottom: .5em;
+    padding-bottom: 1em;
     padding-top: .5em;
     border-radius: 25px;
-    border-color: whitesmoke;
+    border-color:rgb(85, 81, 88);
     border-style: solid;
-    border-width: 3px;
+    border-width: .5px;
+    box-shadow: rgb(101, 96, 105) 5px 0px 25px, rgb(101, 96, 105) -5px 0px 25px,
+    inset rgb(101, 96, 105) 5px 0px 25px, inset rgb(101, 96, 105) -5px 0px 25px;
 }
-
 img#homePic{
     filter: grayscale(1);
     -webkit-filter: grayscale(1);
@@ -106,8 +113,8 @@ img#homePic{
 }
 footer{
     text-align: center;
-    background-color: green;
     color: white;
+    padding-top: 30px;
 }
 iframe{
     padding-left: 20%;
@@ -120,9 +127,10 @@ article>p{
     margin-right: 50px;
     margin-left: 50px;
     text-align: center;
-    background-color: darkgreen;
     border-radius: 25px;
-    border-color: whitesmoke;
     border-style: solid;
-    border-width: 3px;
+    border-width: 1px;
+}
+h6{
+    font-weight: normal;
 }
