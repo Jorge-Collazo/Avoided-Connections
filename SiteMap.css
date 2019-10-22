@@ -9,10 +9,11 @@
 html{
     
     background-color: rgb(178, 149, 255);
-    background: linear-gradient(rgb(45, 40, 50)33%, rgb(64, 45, 95)67%, rgb(94, 75, 125)100%);
+    background: linear-gradient(rgb(207, 29, 29)33%, rgb(245, 131, 131)67%, rgb(241, 241, 241)100%);
     background-size: cover;
     height: stretch;
     box-sizing: border-box;
+    position: relative;
 }
 body{
     background-color: black;
@@ -26,6 +27,7 @@ img{
     margin-right: auto;
     margin-left: auto;
     border: 100px;
+    padding: 4em;
 }
 nav li{
     float: left;
@@ -36,4 +38,11 @@ nav li{
 }
 a{
     color: white;
+}
+section{
+    margin: 4em;
+}
+img{
+    left: 50%;
+    top: 50%;
 }
