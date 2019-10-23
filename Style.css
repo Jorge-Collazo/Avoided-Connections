@@ -67,6 +67,7 @@ div#logo{
     background-color: white;
     clear: left;
     float: left;
+    filter: grayscale(0.8) invert(0.1)
 }
 div#title{
     clear: left;
